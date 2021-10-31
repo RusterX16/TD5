@@ -1,8 +1,6 @@
 package dev.ruster.td5;
 
-import dev.ruster.td5.ex.Multiplication;
-import dev.ruster.td5.ex.PerfectSquare;
-import dev.ruster.td5.ex.RomanNumerals;
+import dev.ruster.td5.ex.*;
 
 import java.util.Scanner;
 
@@ -23,6 +21,8 @@ public final class Main {
                 case 1 -> new Multiplication(scan);
                 case 2 -> new RomanNumerals(scan);
                 case 3 -> new PerfectSquare(scan);
+                case 4 -> new FriendlyNumber(scan);
+                case 5 -> new NonSignificant(scan);
             }
         }
     }

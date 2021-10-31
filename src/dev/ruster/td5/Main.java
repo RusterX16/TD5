@@ -22,7 +22,8 @@ public final class Main {
                 case 2 -> new RomanNumerals(scan);
                 case 3 -> new PerfectSquare(scan);
                 case 4 -> new FriendlyNumber(scan);
-                case 5 -> new NonSignificant(scan);
+                case 5 -> new NonSignificantCompacting(scan);
+                case 6 -> new DuplicateCompacting(scan);
             }
         }
     }

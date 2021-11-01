@@ -24,6 +24,8 @@ public final class Main {
                 case 4 -> new FriendlyNumber(scan);
                 case 5 -> new NonSignificantCompacting(scan);
                 case 6 -> new DuplicateCompacting(scan);
+                case 7 -> new LongestTraySearch(scan);
+                case 8 -> new MoreFrequentNumber(scan);
             }
         }
     }
